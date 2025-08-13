@@ -29,7 +29,7 @@ A IA teve como Treinamento um Dataset Pequeno de imagens que se localiza na past
 
 ## 2.2 Definição das Classes 
 
-Para Classifição de fato dos Peixes, Foi feito uma função para Definir as Classes de cada peixe, primeiramente a imagem vira um array de numeros, por sengundo ela faz um predict com base nesse array de numeros (O predict ela tenta prever de fato a classe da imagem com base em uma sequencia de numeros do array) em seguida traz o posição desse numero, com base na posição desse numero e que criamos a limiar de confiança, que é a probabilidade de ser aquele peixe, por fim ela faz a defição da classe com quase certeza, com base nessa limiar de confiança, caso ela não encontre caracteristicas unicas para define a especie do peixe, ela diz INDETERMINADO, pois a limiar de confiança e baixa.
+Para Classifição de fato dos Peixes, Foi feito uma função para Definir as Classes de cada peixe, primeiramente a imagem vira um array de numeros, por sengundo ela faz um predict com base nesse array de numeros (O predict ela tenta prever de fato a classe da imagem com base em uma sequencia de numeros do array) em seguida traz o posição desse numero, com base na posição desse numero e que criamos a limiar de confiança, que é a probabilidade de ser aquele peixe, por fim ela faz a definição da classe com quase certeza, com base nessa limiar de confiança, caso ela não encontre caracteristicas unicas para definir a especie do peixe, ela diz INDETERMINADO, pois a limiar de confiança e baixa.
 
 
 
