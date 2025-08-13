@@ -29,7 +29,7 @@ A IA teve como Treinamento um Dataset Pequeno de imagens que se localiza na past
 
 ## 2.2 Definição das Classes 
 
-Para Classifição de fato dos Peixes, Foi feito uma função para Define as Classes de cada peixe, primeiramente a imagem vira um array de numeros, por sengundo ela faz um predict com base nesse array de numeros (O predict ela tenta prever de fato a classe da imagem com base em uma sequencia de numeros do array) em seguida traz o posição desse numero, com base na posição desse numero e que criamos a limiar de confiança, que é a probabilidade de ser aquele peixe, por fim ela faz a defição da classe com quase certeza, com base nessa limiar de confiança, caso ela não encontre caracteristicas unicas para define a especie do peixe, ela diz INDETERMINADO, pois a limiar de confiança e baixa.
+Para Classifição de fato dos Peixes, Foi feito uma função para Definir as Classes de cada peixe, primeiramente a imagem vira um array de numeros, por sengundo ela faz um predict com base nesse array de numeros (O predict ela tenta prever de fato a classe da imagem com base em uma sequencia de numeros do array) em seguida traz o posição desse numero, com base na posição desse numero e que criamos a limiar de confiança, que é a probabilidade de ser aquele peixe, por fim ela faz a defição da classe com quase certeza, com base nessa limiar de confiança, caso ela não encontre caracteristicas unicas para define a especie do peixe, ela diz INDETERMINADO, pois a limiar de confiança e baixa.
 
 
 
@@ -41,13 +41,13 @@ A IA pede pelo o CMD (Prompt de Comando) um caminho de uma imagem para fazer a p
 
 No projeto (Identifica Tambaqui) além das pastas de treino e teste, colocamos algumas imagens da internet de diversos peixes e inclusive os que queremos identificar, em algumas dessas imagens possui poluições Exemplo(Pessoas, Casas, Vegetação, objetos..etc), mas tudo com um proposito de testa o real aprendizado da IA.
 
-O arquivo de Treinamento do Modelo de IA *Treinamento_modelo.py*, toda vez que é feita execução dele, no final ele pergunta se você quer salva aquele modelo que você treinou, para sempre que você fizer alguma alteração, a IA sempre pega o melhor já feito treino.
+O arquivo de Treinamento do Modelo de IA *Treinamento_modelo.py*, toda vez que é feita execução dele, no final ele pergunta se você quer salva aquele modelo que você treinou, para sempre que você fizer alguma alteração, a IA sempre pega o melhor treino já feito.
 
-Deixamos um arquivo python de que foi feito o treinamento do modelo, e outro que ja usar o modelo salvo treinado *Modelo_treinado.py* e o treino com a melhor acuracia *modelo_salvo_peixe.h5*
+Deixamos um arquivo python de que foi feito o treinamento do modelo, e outro que ja usar o modelo salvo treinado *Modelo_treinado.py* e o treino com a melhor acuracia de 89% *modelo_salvo_peixe.h5* 
 
 
 # DECLARAÇÕES FINAIS
 
-Essa documentação foi pensada por ***Wilken silva***, para que pessoas que leigas possam entender o que esta acontecedo, tentar utilizar de alguma forma para as suas vidas....
+Essa documentação foi pensada por ***Wilken silva***, para pessoas leigas ou entusiastas possam entender o que esta acontecedo, tentar utilizar de alguma forma para as suas vidas....
 
 ### Bons estudos :)
